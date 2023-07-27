@@ -642,7 +642,6 @@ class BaseFileHelper
             static::createDirectory($parentDir, $mode, true);
         }
         try {
-            fwrite(STDOUT, $output);
             if (!mkdir($path, $mode)) {
                 return false;
             }
