@@ -7,6 +7,6 @@
  */
 return [
     'aliases' => [
-        '@filestore' => '/uploads'
+        '@filestore' => '/../uploads'
     ]
 ];
