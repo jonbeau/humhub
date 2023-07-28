@@ -11,9 +11,4 @@ return [
     ]
 ];
 
-return [
-    'aliases' => [
-        '@filestore' => '/uploads'
-    ]
-];
 
