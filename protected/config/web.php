@@ -10,9 +10,7 @@ return [
         'dynamicConfigFile' => 'config/dynamic.php'
     ]
 
-    'aliases' => [
-        '@filestore' => '/../uploads'
-    ]
+
 ];
 
 
