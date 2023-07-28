@@ -9,6 +9,10 @@ return [
     'params' => [
         'dynamicConfigFile' => 'config/dynamic.php'
     ]
+
+    'aliases' => [
+        '@filestore' => '/../uploads'
+    ]
 ];
 
 
